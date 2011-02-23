@@ -1,0 +1,17 @@
+/*
+Andreas Bok Andersen
+
+*/
+
+for n elements in an array
+(n + 0) + (n-1) + (n-2)...(n-(n-1)) + 0
+n^2 
+
+iterate through the array 
+	for each value iterate through the array to check if the value 
+	is duplicated     
+
+if it is not duplicated copy to array a2
+if it is duplicated copy the whole array to 
+array a3 except for the duplicate
+perform the iteration on a3  
