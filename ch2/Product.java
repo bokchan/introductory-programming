@@ -18,7 +18,6 @@ public class Product {
 	public double getPrice() {
 		return this.price;
 		
-
 	}
 	
 	public void reducePrice(double rebate) {
