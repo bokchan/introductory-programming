@@ -34,7 +34,7 @@ public class Coin {
 
 	@Override
 	public String toString() {
-		return String.format("Coin [value=%s, name=%s]", value, name);
+		return String.format("%s: $%s",name, value);
 	}
 	
 }

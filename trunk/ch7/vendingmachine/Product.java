@@ -19,7 +19,7 @@ public class Product {
 
 	@Override
 	public String toString() {
-		return String.format("Product [name=%s, value=%s]", name, value);
+		return String.format("%s: $%s", name, value);
 	}
 		
 }
